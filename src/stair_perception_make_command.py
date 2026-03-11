@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ros2 launch realsense2_camera rs_launch.py 실행
-# unitree_ros2 pkg 필요(라이다 토픽 사용--> 라이다 사용 x), 파라미터들은 환경에 맞춰 변경해서 사용 /완전 굿굿
+# unitree_ros2 pkg 필요(라이다 토픽 사용--> 라이다 사용 x), 파라미터들은 환경에 맞춰 변경해서 사용
 
 from datetime import datetime #시간, 날짜 등 사용을 위해
 from ultralytics import YOLO #계단 인식을 위해
