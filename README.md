@@ -1,4 +1,4 @@
-# Unitree Go2 Stair Climbing: 비전 기반 자율 접근 및 제어 시스템
+# 🐕 Unitree Go2 Stair Climbing: 비전 기반 자율 접근 및 제어 시스템
 
 ## 1. 프로젝트 개요 (Introduction)
 
