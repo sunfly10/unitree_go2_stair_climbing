@@ -16,7 +16,7 @@
 
 ## 2. 주요 기술 및 알고리즘
 
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/6d4b6bea-ac95-48d2-aa21-e24ee62cd565" /> ![Uploading image.png…]()
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/6d4b6bea-ac95-48d2-aa21-e24ee62cd565" /> | <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/9dc6ef4a-5747-4975-83c8-cb64f4c13b7f" />
 
 
 ### 2.1 환경 적응형 비전 인식 (YOLOv8)
