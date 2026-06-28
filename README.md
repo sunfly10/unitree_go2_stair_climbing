@@ -16,6 +16,8 @@
 
 ## 2. 주요 기술 및 알고리즘
 
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/6d4b6bea-ac95-48d2-aa21-e24ee62cd565" />
+
 ### 2.1 환경 적응형 비전 인식 (YOLOv8)
 * **데이터셋 최적화:** Roboflow를 활용하여 계단 전체 영역(stair)과 개별 층계(step)를 세분화하여 학습시켰습니다. 이를 통해 로봇 앞의 장애물이나 사람에 의해 계단 일부가 가려지는 상황(Occlusion)에서도 인식의 연속성을 확보했습니다.
 * **적응형 임계값(Adaptive Thresholding):** 로봇의 주행 상태에 따라 YOLO 모델의 신뢰도 기준을 동적으로 변경하여 시스템 안정성을 높였습니다.
@@ -25,7 +27,7 @@
 ### 2.2 IBVS 기반 2축(Yaw, X/Y) 접근 제어
 
 복잡한 3D 좌표 변환을 생략하고, 화면상 픽셀 좌표 오차를 제어 입력으로 직접 사용하여 제어 안정성과 실시간성을 높였습니다.
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/6d4b6bea-ac95-48d2-aa21-e24ee62cd565" />
+
 * **조향(Yaw) 및 전진(X/Y) 제어:** 인식된 계단의 중심 좌표가 화면 중앙(640px)에 위치하도록 회전 각속도를 제어하고, 계단 하단부가 목표선에 도달할 때까지 전진 속도를 비례 제어합니다.
 * **안전 정지선(Stop Line) 설정:** 기구학적 역산을 통해 계단 전방 약 21.8cm 위치에 해당하는 화면 하단 650px 지점을 최적의 도착 지점(Stop Line)으로 설정하여, 충돌 없이 안전하게 등반을 준비할 수 있는 안전 마진을 확보했습니다.
 
