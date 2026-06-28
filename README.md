@@ -16,7 +16,8 @@
 
 ## 2. 주요 기술 및 알고리즘
 
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/6d4b6bea-ac95-48d2-aa21-e24ee62cd565" />
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/6d4b6bea-ac95-48d2-aa21-e24ee62cd565" /> ![Uploading image.png…]()
+
 
 ### 2.1 환경 적응형 비전 인식 (YOLOv8)
 * **데이터셋 최적화:** Roboflow를 활용하여 계단 전체 영역(stair)과 개별 층계(step)를 세분화하여 학습시켰습니다. 이를 통해 로봇 앞의 장애물이나 사람에 의해 계단 일부가 가려지는 상황(Occlusion)에서도 인식의 연속성을 확보했습니다.
